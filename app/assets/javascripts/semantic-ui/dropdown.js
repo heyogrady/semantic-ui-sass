@@ -325,7 +325,7 @@ $.fn.dropdown = function(parameters) {
               module.verbose('Adding search input');
               $search = $('<input />')
                 .addClass(className.search)
-                .prop('autocomplete', 'off')
+                .prop('autocomplete', 'random-string-to-turn-off-chrome-autocomplete')
                 .insertBefore($text)
               ;
             }
